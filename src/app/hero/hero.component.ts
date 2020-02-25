@@ -10,7 +10,7 @@ import { ApiService } from './../api.service';
 export class HeroComponent implements OnInit, OnChanges {
   smartphones: any = [];
   imagePath: String = "";
-
+  imageCss: String = "";
   @Input('master') masterBackgroundImage: string;
 
 
@@ -25,7 +25,7 @@ export class HeroComponent implements OnInit, OnChanges {
     if (changes['masterBackgroundImage']) {
       this.getImagePath(this.masterBackgroundImage);
     }
-}
+``}
 
   getSmartphones() {
     this.api.getSmartphone()
@@ -40,12 +40,13 @@ export class HeroComponent implements OnInit, OnChanges {
       });
   }
 
-  getImagePath(path: String) {
-    this.setImagePath(this.api.getImagePath(path));
+  getImagePath(fileName: String) {
+    this.setImagePath(this.api.getImagePath(fileName));
   }
 
   setImagePath(path: String){
     this.imagePath = path;
+    this.imageCss = JSON.parse('{"background": "url(' + path + ')"}');
   }
   
 

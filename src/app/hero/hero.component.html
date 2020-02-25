@@ -1,1 +1,8 @@
 <p>hero works!</p>
+<ul>
+    <li *ngFor="let smartphone of smartphones">
+      <p>
+        {{ smartphone.name }} • {{ smartphone.price }}
+      </p>
+    </li>
+  </ul>

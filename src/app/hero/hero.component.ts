@@ -8,11 +8,12 @@ import { ApiService } from './../api.service';
 })
 
 export class HeroComponent implements OnInit {
-  smartphone: any = [];
+  smartphones: any = [];
 
   constructor(private api: ApiService) {}
 
   ngOnInit(): void {
+    this.smartphones = [];
     this.getSmartphones();
   }
 
@@ -20,12 +21,12 @@ export class HeroComponent implements OnInit {
     this.api.getSmartphone()
       .subscribe(data => {
         for (const d of (data as any)) {
-          this.smartphone.push({
+          this.smartphones.push({
             name: d.name,
             price: d.price
           });
         }
-        console.log(this.smartphone);
+        console.log(this.smartphones);
       });
   }
 

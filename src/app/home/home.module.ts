@@ -24,6 +24,5 @@ import { ComboTilesComponent } from './../combo-tiles/combo-tiles.component';
 
 
 export class HomeModule {
-
   constructor() {}
  }

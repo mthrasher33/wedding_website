@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ApiService } from './../api.service';
 
 @Component({
@@ -9,12 +9,16 @@ import { ApiService } from './../api.service';
 
 export class HeroComponent implements OnInit {
   smartphones: any = [];
+  imagePath: String = "";
+
+  @Input('master') masterBackgroundImage: string;
 
   constructor(private api: ApiService) {}
 
   ngOnInit(): void {
     this.smartphones = [];
     this.getSmartphones();
+    this.getImagePath();
   }
 
   getSmartphones() {
@@ -29,5 +33,14 @@ export class HeroComponent implements OnInit {
         console.log(this.smartphones);
       });
   }
+
+  getImagePath() {
+    this.setImagePath(this.api.getImagePath(this.masterBackgroundImage));
+  }
+
+  setImagePath(path: String){
+    this.imagePath = path;
+  }
+  
 
 }

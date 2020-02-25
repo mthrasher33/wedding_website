@@ -1,19 +1,29 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeroComponent } from './../hero/hero.component';
+import { HttpClientModule } from '@angular/common/http';
 import { HomeRoutingModule } from './home-routing.module';
+
+import { HeroComponent } from './../hero/hero.component';
 import { HomeComponent } from './home.component';
+import { ComboTilesComponent } from './../combo-tiles/combo-tiles.component';
 
 
 @NgModule({
   declarations: [
     HeroComponent,
-    HomeComponent
+    HomeComponent,
+    ComboTilesComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    HttpClientModule
 
   ]
 })
-export class HomeModule { }
+
+
+export class HomeModule {
+
+  constructor() {}
+ }

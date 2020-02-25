@@ -1,12 +1,8 @@
-<p>hero works!</p>
-<ul>
+<!--<ul>
     <li *ngFor="let smartphone of smartphones">
       <p>
         {{ smartphone.name }} • {{ smartphone.price }}
       </p>
     </li>
-  </ul>
-  <div class="hero-image" [ngStyle]=imageCss></div>
-  image url: {{imagePath}}
-
-  <!--background: 'url(/assets/images/icePic.jpg)'-->
+  </ul>-->
+  <div class="hero-image" [ngStyle]="{'background-image': 'url(' + imagePath + ')'}"></div>

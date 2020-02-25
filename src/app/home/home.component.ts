@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from './../api.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
-  heroBackgroundImage: String = 'mattPic.jpeg';
+  constructor(private api: ApiService) { }
+  heroBackgroundImage: String = "";
 
   ngOnInit(): void {
+    this.getHomeHeroBackgroundImage();
+  };
+
+  getHomeHeroBackgroundImage() {
+    this.api.getHomeHeroImageUrl()
+      .subscribe(data => {
+        for (const d of (data as any)) {
+          this.heroBackgroundImage = d.url
+        }
+        console.log(this.heroBackgroundImage);
+      });
   }
 }

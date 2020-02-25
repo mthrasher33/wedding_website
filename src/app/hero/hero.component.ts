@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { ApiService } from './../api.service';
 
 @Component({
@@ -7,19 +7,25 @@ import { ApiService } from './../api.service';
   styleUrls: ['./hero.component.css']
 })
 
-export class HeroComponent implements OnInit {
+export class HeroComponent implements OnInit, OnChanges {
   smartphones: any = [];
   imagePath: String = "";
 
   @Input('master') masterBackgroundImage: string;
+
 
   constructor(private api: ApiService) {}
 
   ngOnInit(): void {
     this.smartphones = [];
     this.getSmartphones();
-    this.getImagePath();
   }
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['masterBackgroundImage']) {
+      this.getImagePath(this.masterBackgroundImage);
+    }
+}
 
   getSmartphones() {
     this.api.getSmartphone()
@@ -34,8 +40,8 @@ export class HeroComponent implements OnInit {
       });
   }
 
-  getImagePath() {
-    this.setImagePath(this.api.getImagePath(this.masterBackgroundImage));
+  getImagePath(path: String) {
+    this.setImagePath(this.api.getImagePath(path));
   }
 
   setImagePath(path: String){

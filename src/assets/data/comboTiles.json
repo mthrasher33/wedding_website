@@ -1,0 +1,37 @@
+[
+    {
+      "id": "P0001",
+      "header": "Accommodations",
+      "sub": "Where to stay in the Twin Cities",
+      "url": "/accommodations",
+      "icon": ""
+    },
+    {
+      "id": "P0002",
+      "header": "Program",
+      "sub": "",
+      "url": "/program",
+      "icon": ""
+    },
+    {
+      "id": "P0003",
+      "header": "Registry",
+      "sub": "",
+      "url": "/registry",
+      "icon": ""
+    },
+    {
+      "id": "P0004",
+      "header": "How We Met",
+      "sub": "",
+      "url": "/story",
+      "icon": ""
+    },
+    {
+      "id": "P0005",
+      "header": "Wedding Party",
+      "sub": "",
+      "url": "/wedding-party",
+      "icon": ""
+    }
+]

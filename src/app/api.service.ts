@@ -3,7 +3,10 @@ import { HttpClient } from '@angular/common/http';
 
 const localUrl = 'assets/data/smartphone.json';
 const homeHeroImageUrl = 'assets/data/homeHeroImage.json';
+const comboTilesUrl = 'assets/data/comboTiles.json';
+
 const imageRoot = 'assets/images/';
+
 
 @Injectable({
   providedIn: 'root'
@@ -25,6 +28,10 @@ export class ApiService {
 
   getImagePath(file: String){
     return imageRoot + file;
+  }
+  
+  getComboTiles() {
+    return this.http.get(comboTilesUrl);
   }
 
 }

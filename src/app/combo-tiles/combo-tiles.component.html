@@ -1,1 +1,11 @@
-<p>combo-tiles works!</p>
+ComboTiles:
+
+<div class="comboTile_container">
+    <div *ngFor="let comboTile of comboTiles">
+        <a routerLink={{comboTile.url}}>
+        <div class="comboTile">
+         <h1>{{ comboTile.header }}</h1>
+        </div>
+        </a>
+    </div>
+</div>

@@ -11,41 +11,41 @@
       "header": "Schedule of Events",
       "sub": "",
       "url": "/events",
-      "icon": "mood"
+      "icon": "event_note"
     },
     {
       "id": "P0003",
       "header": "Registry",
       "sub": "",
       "url": "/registry",
-      "icon": ""
+      "icon": "card_giftcard"
     },
     {
       "id": "P0004",
       "header": "Our Story",
       "sub": "",
       "url": "/story",
-      "icon": ""
+      "icon": "library_books"
     },
     {
       "id": "P0005",
       "header": "Wedding Party",
       "sub": "",
       "url": "/wedding-party",
-      "icon": ""
+      "icon": "cake"
     },
     {
       "id": "P0005",
       "header": "See the Cities",
       "sub": "",
       "url": "/recommendations",
-      "icon": ""
+      "icon": "location_city"
     },
     {
       "id": "P0005",
       "header": "The Venue",
       "sub": "",
       "url": "/pna",
-      "icon": ""
+      "icon": "star"
     }
 ]

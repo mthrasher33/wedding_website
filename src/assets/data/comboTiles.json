@@ -4,14 +4,14 @@
       "header": "Accommodations",
       "sub": "Where to stay in the Twin Cities",
       "url": "/accommodations",
-      "icon": ""
+      "icon": "local_hotel"
     },
     {
       "id": "P0002",
-      "header": "Program",
+      "header": "Schedule of Events",
       "sub": "",
-      "url": "/program",
-      "icon": ""
+      "url": "/events",
+      "icon": "mood"
     },
     {
       "id": "P0003",
@@ -22,7 +22,7 @@
     },
     {
       "id": "P0004",
-      "header": "How We Met",
+      "header": "Our Story",
       "sub": "",
       "url": "/story",
       "icon": ""
@@ -32,6 +32,20 @@
       "header": "Wedding Party",
       "sub": "",
       "url": "/wedding-party",
+      "icon": ""
+    },
+    {
+      "id": "P0005",
+      "header": "See the Cities",
+      "sub": "",
+      "url": "/recommendations",
+      "icon": ""
+    },
+    {
+      "id": "P0005",
+      "header": "The Venue",
+      "sub": "",
+      "url": "/pna",
       "icon": ""
     }
 ]

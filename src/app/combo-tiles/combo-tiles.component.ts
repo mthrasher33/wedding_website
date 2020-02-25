@@ -24,7 +24,8 @@ export class ComboTilesComponent implements OnInit {
           this.comboTiles.push({
             header: d.header,
             //sub: d.sub,
-            url: d.url
+            url: d.url,
+            icon: d.icon
           });
         }
         console.log(this.comboTiles);

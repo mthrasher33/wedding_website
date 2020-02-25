@@ -15,3 +15,7 @@ div.comboTile {
 div.comboTile h1 {
   color: black;  
 }
+
+div.comboTile mat-icon {
+  color: black;
+}

@@ -5,7 +5,9 @@ ComboTiles:
         <a routerLink={{comboTile.url}}>
         <div class="comboTile">
          <h1>{{ comboTile.header }}</h1>
+         <mat-icon *ngIf="comboTile.icon">{{ comboTile.icon }}</mat-icon>
         </div>
         </a>
     </div>
 </div>
+<mat-icon>mood</mat-icon>

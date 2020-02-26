@@ -6,10 +6,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ContentPageComponent } from './content-page.component';
+import { ContentPageHeroComponent } from './../content-page-hero/content-page-hero.component';
+import { ContentPageBodyComponent } from './../content-page-body/content-page-body.component';
 
 @NgModule({
   declarations: [
-    ContentPageComponent
+    ContentPageComponent,
+    ContentPageHeroComponent,
+    ContentPageBodyComponent
   ],
   imports: [
     CommonModule,

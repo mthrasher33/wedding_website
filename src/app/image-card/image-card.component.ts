@@ -12,7 +12,6 @@ export class ImageCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('data to image card: ', this.content);
   }
 
 }

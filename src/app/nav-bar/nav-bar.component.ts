@@ -14,6 +14,5 @@ export class NavBarComponent implements OnInit {
   }
 toggleMenu() {
   this.hideMobileMenu = !this.hideMobileMenu;
-  console.log(this.hideMobileMenu);
 }
 }

@@ -1,4 +1,7 @@
 <div class="hero-image" [ngStyle]="{'background-image': 'url(' + imagePath + ')'}">
+    <div class="breadcrumb">
+        <a (click)="backClicked()"><span><mat-icon>arrow_back</mat-icon></span>Back</a>
+    </div>  
     <div class="content_block">
       <h1>{{pageTitle}}</h1>
     </div>

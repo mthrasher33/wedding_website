@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges  } from '@angular/core';
 import { ApiService } from './../api.service';
+import {Location} from '@angular/common';
 
 @Component({
   selector: 'content-page-hero',
@@ -11,7 +12,7 @@ export class ContentPageHeroComponent implements OnInit, OnChanges {
   @Input('master') masterBackgroundImage: string;
   @Input('title') pageTitle: string;
   
-  constructor(private api: ApiService) { }
+  constructor(private api: ApiService, private _location: Location) { }
 
   ngOnInit(): void {
   }
@@ -28,6 +29,10 @@ getImagePath(fileName: String) {
 
 setBackgroundImage(path: String){
   this.imagePath = path;
+}
+
+backClicked() {
+  this._location.back();
 }
 
 }

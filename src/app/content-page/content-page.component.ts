@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {Location} from '@angular/common';
 
 @Component({
   selector: 'content-page',
@@ -9,7 +8,7 @@ import {Location} from '@angular/common';
 })
 export class ContentPageComponent implements OnInit {
 
-  constructor(route: ActivatedRoute,private _location: Location) { 
+  constructor(route: ActivatedRoute) { 
     const heroBackgroundImage:String = route.snapshot.data['heroImage'];
     const key:String = route.snapshot.data['contentKey'];
     const title:String = route.snapshot.data['pageTitle'];
@@ -22,9 +21,4 @@ export class ContentPageComponent implements OnInit {
   pageTitle: String = "";
   ngOnInit(): void {
   }
-
-  backClicked() {
-    this._location.back();
-  }
-
 }

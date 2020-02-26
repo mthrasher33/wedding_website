@@ -35,3 +35,26 @@
       padding-top: 325px;
     }
   }
+
+  .hero-image .breadcrumb {
+      background-color:rgb(204, 202, 204);
+      padding: 10px 12px;  
+      font-family: 'Amatic SC';
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+  .hero-image .breadcrumb a {
+    cursor: pointer;
+    padding: 6px 10px;
+  }
+
+  .hero-image .breadcrumb a:hover {
+    background-color: rgb(99, 64, 74);
+    color: white;
+  }
+
+  .hero-image .breadcrumb span {
+    vertical-align: middle;
+    margin-right: 5px;
+  }

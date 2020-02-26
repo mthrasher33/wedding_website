@@ -3,7 +3,11 @@ footer {
     align-items: center;
     line-height: 20px;
     background-color: rgb(143, 137, 141);
-    height:50px;
+    color: rgb(25, 25, 25, .9);
+    font-weight: bold;
+    font-family: 'Amatic SC';
+    /*flex-wrap: "wrap";*/
+    flex-direction: column;
   }
 
   footer p {
@@ -15,4 +19,30 @@ footer {
     margin-right: 15px;
     font-size: 20px;
     font-weight: bold;
+  }
+
+  footer ul {
+    list-style: none;
+    width: 200px;
+  }
+
+  footer ul li {
+    margin: 15px;
+  }
+
+  footer ul a {
+    color: rgb(25, 25, 25, .9);
+    font-weight:bold;
+    font-size:25px;
+    margin-top:10px;
+  }
+
+  footer ul a:hover {
+    color: white;
+  }
+  @media screen and (min-width: 575px) {
+    footer{
+        flex-direction: row;
+    }
+    
   }

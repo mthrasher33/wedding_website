@@ -1,10 +1,28 @@
 <div class="toolbar" role="banner">
-    <a routerLink="/home"><b>HOME</b></a>
+    <div>
+      <a routerLink="/home"><b>HOME</b></a>
+    </div>
       <div class="spacer"></div>
-      <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="https://twitter.com/angular" title="Twitter">
-      </a>
-      <a routerLink="/events"><b>EVENT</b></a>
-      <a routerLink="/registry"><b>REGISTRY</b></a>
-      <a routerLink="/story"><b>OUR STORY</b></a>
-
+      <div class="menuToggler" (click)="toggleMenu()">
+        <mat-icon *ngIf="hideMobileMenu">menu</mat-icon>
+        <mat-icon *ngIf="!hideMobileMenu">menu_open</mat-icon>
+      </div>
+      <div class="mobileLinks" [ngClass]="{'hide': hideMobileMenu}">
+        <ul class="dropdownMenu">
+          <li>
+              <a routerLink="/events"><b>EVENT</b></a>
+          </li>
+          <li>
+              <a routerLink="/registry"><b>REGISTRY</b></a>
+            </li>
+          <li>
+              <a routerLink="/story"><b>OUR STORY</b></a>
+            </li>
+        </ul>
+      </div>
+      <div class="desktopLinks">
+          <a routerLink="/events"><b>EVENT</b></a>
+          <a routerLink="/registry"><b>REGISTRY</b></a>
+          <a routerLink="/story"><b>OUR STORY</b></a>  
+      </div>
   </div>

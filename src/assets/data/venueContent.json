@@ -1,5 +1,13 @@
 [
-    {
-      "key": "venue"
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "The PNA Hall"
+      },
+      "parText": "The Polish National Association Hall is located in Northeast Minneapolis at 1304 4th St NE."
     }
+  }
+ 
 ]

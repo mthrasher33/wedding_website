@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
-
+  hideMobileMenu : Boolean = true; 
   constructor() { }
 
   ngOnInit(): void {
-  }
 
+  }
+toggleMenu() {
+  this.hideMobileMenu = !this.hideMobileMenu;
+  console.log(this.hideMobileMenu);
+}
 }

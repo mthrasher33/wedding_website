@@ -1,5 +1,32 @@
 [
-    {
-      "key": "weddingParty"
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Person X"
+      },
+      "parText": "<img src='/assets/images/paisley.jpg'><p>Person X has known Matt for a long time and is a rad dude</p>"
     }
+  },
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Person Y"
+      },
+      "parText": "<img src='/assets/images/paisley.jpg'><p>Person Y has known Cecily for a long time and is a rad lady</p>"
+    }
+  },
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Person X"
+      },
+      "parText": "<img src='/assets/images/paisley.jpg'><p>Person X has known Matt for a long time and is a rad dude</p>"
+    }
+  }
 ]

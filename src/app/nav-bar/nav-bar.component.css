@@ -38,10 +38,44 @@
   .toolbar #twitter-logo:hover {
     opacity: 0.8;
   }
+  .toolbar mat-icon {
+    cursor: pointer;
+    margin-right:15px;
+  }
+
+  .toolbar .mobileLinks {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    background-color: rgb(25, 25, 25, .9);
+  }
+  .toolbar .desktopLinks {
+    display:none;
+  }
+
+  .toolbar .dropdownMenu {
+    list-style: none;
+    padding-left: 0px;
+  }
+  .hide {
+    display: none;
+  }
 
   @media (min-height: 300px) {
     .toolbar {
       position: sticky;
       top: 0;
+    }
+  }
+  @media screen and (min-width: 575px) {
+    .toolbar .desktopLinks {
+      display:block;
+    }
+    .toolbar .mobileLinks {
+      display: none;
+    }
+
+    .toolbar .menuToggler {
+      display:none;
     }
   }

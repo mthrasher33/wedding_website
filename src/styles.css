@@ -37,5 +37,9 @@ span.registryLink a {
 
 span.registryLink a:hover {
     font-weight: bold;
-    text-decoration:underline;
+    color: white;
+}
+
+div.text img {
+    width: 100%;
 }

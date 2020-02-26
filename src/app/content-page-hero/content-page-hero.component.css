@@ -1,0 +1,37 @@
+
+.hero-image {
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 560px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.hero-image .content_block {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  padding-top: 32%;
+  font-family: 'Amatic SC';
+  color: white;
+  font-size: 25px;
+}
+
+.hero-image .content_block h1, h2, h3 {
+  /*background-color: rgb(232, 230, 230, 0.5);*/
+}
+
+  /* Responsive Styles */
+  @media screen and (min-width: 900px) {
+    .hero-image {
+      background-position: 50% 5%;
+      height: 600px;
+      font-family: 'Nunito'
+    }
+    .hero-image .content_block {
+      padding-top: 325px;
+    }
+  }

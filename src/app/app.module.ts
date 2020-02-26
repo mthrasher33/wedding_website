@@ -4,6 +4,7 @@ import { MatIconModule } from '@angular/material/icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './home/home.module';
+import { ContentPageModule } from './content-page/content-page.module';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -20,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     HomeModule,
+    ContentPageModule,
     BrowserAnimationsModule,
     MatIconModule
   ],

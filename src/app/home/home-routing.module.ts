@@ -5,9 +5,7 @@ import { HomeComponent } from './home.component';
 import { FooterComponent } from './../footer/footer.component';
 
 const homeRoutes: Routes = [
-  { path: 'home',  component: HomeComponent},
-  { path: '**', component: FooterComponent }
-
+  { path: 'home',  component: HomeComponent, data: {pageTitle: "Home"}},
 ];
 
 @NgModule({

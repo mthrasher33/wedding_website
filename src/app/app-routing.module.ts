@@ -5,18 +5,11 @@ import { FooterComponent } from './footer/footer.component';
 
 
   const appRoutes: Routes = [
-    { path: 'crisis-center', component: FooterComponent },
-    { path: 'hero/:id',      component: FooterComponent },
-    //{
-    //  path: 'home',
-    //  component: FooterComponent,
-    //  data: { title: 'Heroes List' }
-    //},
     { path: '',
       redirectTo: '/home',
-      pathMatch: 'full'
+      pathMatch: 'full',
+      data: {pageTitle: "Home"}
     },
-    //{ path: '**', component: FooterComponent }
   ];
 
 @NgModule({

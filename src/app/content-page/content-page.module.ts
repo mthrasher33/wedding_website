@@ -1,31 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { HomeRoutingModule } from './home-routing.module';
+import { ContentPageRoutingModule } from './content-page-routing.module';
 import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { HeroComponent } from './../hero/hero.component';
-import { HomeComponent } from './home.component';
-import { ComboTilesComponent } from './../combo-tiles/combo-tiles.component';
-
+import { ContentPageComponent } from './content-page.component';
 
 @NgModule({
   declarations: [
-    HeroComponent,
-    HomeComponent,
-    ComboTilesComponent
+    ContentPageComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule,
+    ContentPageRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatIconModule,
+    MatIconModule  
   ]
 })
-
-
-export class HomeModule {
-  constructor() {}
- }
+export class ContentPageModule { }

@@ -4,7 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { ContentPageRoutingModule } from './content-page-routing.module';
 import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { TextFieldComponent } from './../text-field/text-field.component';
+import { ImageCardComponent } from './../image-card/image-card.component';
 import { ContentPageComponent } from './content-page.component';
 import { ContentPageHeroComponent } from './../content-page-hero/content-page-hero.component';
 import { ContentPageBodyComponent } from './../content-page-body/content-page-body.component';
@@ -13,14 +14,16 @@ import { ContentPageBodyComponent } from './../content-page-body/content-page-bo
   declarations: [
     ContentPageComponent,
     ContentPageHeroComponent,
-    ContentPageBodyComponent
+    ContentPageBodyComponent,
+    TextFieldComponent,
+    ImageCardComponent
   ],
   imports: [
     CommonModule,
     ContentPageRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatIconModule  
+    MatIconModule
   ]
 })
 export class ContentPageModule { }

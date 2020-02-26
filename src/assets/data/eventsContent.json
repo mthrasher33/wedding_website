@@ -1,5 +1,24 @@
 [
-    {
-      "key": "events"
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Schedule of Events"
+      },
+      "parText": "<p>We are so happy to welcome everyone to our wedding. Here's what we're up to that weekend.</p>"
     }
+  },
+  {
+    "type": "imageCard",
+    "content": {
+      "header": {
+        "size": 2,
+        "content": "Friday, October 16"
+      },
+      "parText": "<p>Informal gathering at Modist Brewing Company</p>",
+      "image": "icePic.jpg",
+      "imagePosition": "left"
+    }
+  }
 ]

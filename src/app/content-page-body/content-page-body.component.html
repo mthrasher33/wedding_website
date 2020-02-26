@@ -1,1 +1,9 @@
-<h1>{{content.key}} content</h1>
+<div class="text" [innerHTML]="content"></div>
+<div *ngFor="let node of content">
+    <div *ngIf="node.type === 'textField'">
+        <text-field [content]="node.content"></text-field>
+    </div>
+    <div *ngIf="node.type === 'imageCard'">
+        <image-card [content] = "node.content"></image-card>
+    </div>
+</div>

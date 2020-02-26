@@ -1,0 +1,9 @@
+Image card loadeded
+<div class="image_card">
+        <span class="header" *ngIf="content.header">
+            <h1 *ngIf="content.header.size === 1">{{content.header.content}}</h1>
+            <h2 *ngIf="content.header.size === 2">{{content.header.content}}</h2>
+            <h3 *ngIf="content.header.size === 3">{{content.header.content}}</h3>
+        </span>
+        <div class="text" [innerHTML]="content.parText"></div>
+    </div>

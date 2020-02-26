@@ -20,7 +20,9 @@ export class ContentPageBodyComponent implements OnInit {
   getContent(pageTitle: String) {
     this.api.getContent(pageTitle).
       subscribe(data => {
-        this.content = data[0];
+        for (const d of (data as any)) {
+          this.content.push(d);
+        }
         console.log(this.content);
       });
   }

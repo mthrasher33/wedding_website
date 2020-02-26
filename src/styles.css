@@ -16,3 +16,8 @@ a {
     color: white;
     padding: 20px;
 }
+
+div.content_page_body div.text h1{
+    text-align: center;
+    color: purple;
+}

@@ -21,7 +21,7 @@ export class HeroComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes['masterBackgroundImage']) {
+    if (changes['masterBackgroundImage'] && this.masterBackgroundImage) {
       this.getImagePath(this.masterBackgroundImage);
     }
 ``}

@@ -58,3 +58,13 @@
     vertical-align: middle;
     margin-right: 5px;
   }
+
+  .hero-image .mat-icon {
+    height: 20px;
+    width: 20px;
+    padding-top: 3px;
+  }
+
+  .hero-image .material-icons {
+    font-size: 20px;
+  }

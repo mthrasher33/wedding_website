@@ -14,9 +14,9 @@ const contentPageRoutes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forChild(contentPageRoutes)
-  ],
+  imports: [RouterModule.forRoot(contentPageRoutes, {
+    scrollPositionRestoration: 'enabled'
+  })],
   exports: [
     RouterModule
   ]

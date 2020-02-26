@@ -9,9 +9,9 @@ const homeRoutes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forChild(homeRoutes)
-  ],
+  imports: [RouterModule.forRoot(homeRoutes, {
+    scrollPositionRestoration: 'enabled'
+  })],
   exports: [
     RouterModule
   ]

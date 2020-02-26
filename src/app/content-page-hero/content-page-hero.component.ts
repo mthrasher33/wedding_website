@@ -10,7 +10,7 @@ export class ContentPageHeroComponent implements OnInit, OnChanges {
   imagePath: String = "";
   @Input('master') masterBackgroundImage: string;
   @Input('title') pageTitle: string;
-  debugger;
+  
   constructor(private api: ApiService) { }
 
   ngOnInit(): void {

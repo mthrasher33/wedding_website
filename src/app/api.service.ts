@@ -34,4 +34,8 @@ export class ApiService {
     return this.http.get(comboTilesUrl);
   }
 
+  getContent(contentKey: String){
+    return this.http.get('assets/data/' + contentKey + 'Content.json');
+  }
+
 }

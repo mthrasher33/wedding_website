@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Nunito:300&display=swap');
 .spacer {
     flex: 1;
   }
@@ -17,8 +16,8 @@
   }
 
   .toolbar a {
-    font-size: 35px;
-    color: white;
+    font-size: 25px;
+    color: rgb(232, 193, 204, 0.8);
     margin: 12px;
     padding: 2px 7px 2px 7px;
   }

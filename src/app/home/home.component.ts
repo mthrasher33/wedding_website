@@ -21,7 +21,6 @@ export class HomeComponent implements OnInit {
         for (const d of (data as any)) {
           this.heroBackgroundImage = d.url
         }
-        console.log(this.heroBackgroundImage);
       });
   }
 }

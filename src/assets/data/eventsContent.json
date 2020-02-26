@@ -4,21 +4,29 @@
     "content": {
       "header": {
         "size": 1,
-        "content": "Schedule of Events"
+        "content": "Friday, October 16"
       },
-      "parText": "<p>We are so happy to welcome everyone to our wedding. Here's what we're up to that weekend.</p>"
+      "parText": "<p>8:00pm Drinks at Modist Brewing Company<span class='address'>505 N 3rd St, Minneapolis, MN 55401</span></p>"
     }
   },
   {
-    "type": "imageCard",
+    "type": "textField",
     "content": {
       "header": {
-        "size": 2,
-        "content": "Friday, October 16"
+        "size": 1,
+        "content": "Saturday, October 17"
       },
-      "parText": "<p>Informal gathering at Modist Brewing Company</p>",
-      "image": "icePic.jpg",
-      "imagePosition": "left"
+      "parText": "<p>4:00pm Ceremony at PNA Hall<span class='address'>1304 4th St NE, Minneapolis, MN 55413</span></p><p>Reception to follow</p>"
+    }
+  },
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Sunday, October 18"
+      },
+      "parText": "<p>10:00am Brunch and gift opening<span class='address'>Dante's house</span></p>"
     }
   }
 ]

@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Nunito:300&display=swap');
 body {
     margin: 0;
+    background-color:rgb(201, 199, 201);
 }
 
 html, body { height: 100%; }
@@ -20,4 +21,21 @@ a {
 div.content_page_body div.text h1{
     text-align: center;
     color: purple;
+}
+
+span.address {
+    display: block;
+    font-size: 20px;
+    color: rgb(214, 130, 41);
+}
+
+span.registryLink a {
+    display: block;
+    font-size: 24px;
+    color: rgb(214, 130, 41);
+}
+
+span.registryLink a:hover {
+    font-weight: bold;
+    text-decoration:underline;
 }

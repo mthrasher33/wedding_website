@@ -1,5 +1,22 @@
 [
-    {
-      "key": "accommodations"
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Hotel"
+      },
+      "parText": "<p>Mariott Delta<span class='address'>1330 Industrial Blvd NE, Minneapolis, MN 55413</span></p><p>Nicollet Island Inn<span class='address'>95 Merriam St, Minneapolis, MN 55401</span></p>"
     }
+  },
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Transportation"
+      },
+      "parText": "<p>The venue is served by Metro Transit routes 4 and 11.</p><p>There is limited parking at the venue, so please park on the street if you are able</p>"
+    }
+  }
 ]

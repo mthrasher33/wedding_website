@@ -1,7 +1,7 @@
 
 .hero-image {
     background-color: #cccccc; /* Used if the image is unavailable */
-    height: 560px; /* You must set a specified height */
+    height: 400px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     -webkit-background-size: cover;
@@ -23,7 +23,10 @@
 .hero-image .content_block h1, h2, h3 {
   /*background-color: rgb(232, 230, 230, 0.5);*/
 }
-
+@media screen and (min-width: 574px) {
+  .hero-image {
+    height: 500px;
+  }
   /* Responsive Styles */
   @media screen and (min-width: 900px) {
     .hero-image {
@@ -67,4 +70,5 @@
 
   .hero-image .material-icons {
     font-size: 20px;
+  }
   }

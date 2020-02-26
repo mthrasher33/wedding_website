@@ -1,5 +1,32 @@
 [
-    {
-      "key": "recommendations"
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Eat"
+      },
+      "parText": "<p class='business'>El Taco Riendo<span class='address'>2412 Central Ave NE, Minneapolis, MN 55418</span></p><p>Holy Land<span class='address'>2513 Central Ave NE, Minneapolis, MN 55418</span></p></span><p>Hai Hai<span class='address'>2121 University Ave NE, Minneapolis, MN 55418</span></p><p>Young Joni<span class='address'>165 13th Ave NE, Minneapolis, MN 55413</span></p>"
     }
+  },
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Drink"
+      },
+      "parText": "<p class='business'>Moose on Monroe<span class='address'>356 Monroe St NE, Minneapolis, MN 55413</span></p><p>Dangerous Man Brewing Company<span class='address'>1300 NE 2nd St, Minneapolis, MN 55413</span></p></span><p>Norseman Distillery<span class='address'>451 Taft St NE, Minneapolis, MN 55413</span></p><p>Grumpy's Northeast<span class='address'>2200 4th St NE, Minneapolis, MN 55418</span></p>"
+    }
+  },
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "Sightsee"
+      },
+      "parText": "<p class='business'>Stone Arch Bridge and Mill City District<span class='address'>100 Portland Ave, Minneapolis, MN 55401</span></p>Minnehaha Falls<span class='address'>4801 S Minnehaha Dr, Minneapolis, MN 55417</span></p></span>"
+    }
+  }
 ]

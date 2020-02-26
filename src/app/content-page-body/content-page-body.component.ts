@@ -23,7 +23,6 @@ export class ContentPageBodyComponent implements OnInit {
         for (const d of (data as any)) {
           this.content.push(d);
         }
-        console.log(this.content);
       });
   }
 }

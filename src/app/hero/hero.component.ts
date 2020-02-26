@@ -35,7 +35,6 @@ export class HeroComponent implements OnInit, OnChanges {
             price: d.price
           });
         }
-        console.log(this.smartphones);
       });
   }
 

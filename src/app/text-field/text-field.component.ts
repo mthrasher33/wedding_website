@@ -13,7 +13,6 @@ export class TextFieldComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("content passed to text field:", this.content);
   }
 
 }

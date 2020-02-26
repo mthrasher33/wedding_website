@@ -28,7 +28,6 @@ export class ComboTilesComponent implements OnInit {
             icon: d.icon
           });
         }
-        console.log(this.comboTiles);
       });
   }
 

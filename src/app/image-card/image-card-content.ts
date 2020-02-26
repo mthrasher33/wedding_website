@@ -3,7 +3,8 @@ export interface ImageCardContent {
         size: Number;
         content: String;
     },
-    parText: String;
+    parText?: String;
     image: String;
     imagePosition: String;
+    backgroundColor: String;
 }

@@ -12,8 +12,7 @@ export class ImageCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("content passed to image card:", this.content);
-
+    console.log('data to image card: ', this.content);
   }
 
 }

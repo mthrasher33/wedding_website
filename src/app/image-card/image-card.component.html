@@ -1,5 +1,6 @@
-Image card loadeded
-<div class="image_card">
+<div class="image_card" [ngClass] = "{rowReverse : content.imagePosition !== 'left'}">
+    <div class="image" [ngStyle]="{'background-image': 'url(' + content.image + ')'}"></div>
+    <div class="text" [ngClass]="{'headerOnly': !content.parText}" [ngStyle]="{'background-color': content.backgroundColor}">
         <span class="header" *ngIf="content.header">
             <h1 *ngIf="content.header.size === 1">{{content.header.content}}</h1>
             <h2 *ngIf="content.header.size === 2">{{content.header.content}}</h2>
@@ -7,3 +8,5 @@ Image card loadeded
         </span>
         <div class="text" [innerHTML]="content.parText"></div>
     </div>
+
+</div>

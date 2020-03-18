@@ -4,7 +4,17 @@
     "content": {
       "header": {
         "size": 1,
-        "content": "How'd we get here?"
+        "content": "Cecily's Version"
+      },
+      "parText": "Matt and Cecily met on OKCupid and had their first date over 2-4-1's at Liquor Lyle's. Before the date, Matt was vetted by Cecily's brother, who happened to live on the same floor as Matt during their Freshman year of college. Nathan, Cecily's brother, felt confident that Matt was just the \"weird, quirky type\" she liked. He was right! In the five years since, Matt and Cecily have enjoyed many laughs, travels, camping trips, board games, and of course, the addition of their beloved dog, June. They're excited to celebrate their love and commitment to each other alongside their family and friends this October."
+    }
+  },
+  {
+    "type": "textField",
+    "content": {
+      "header": {
+        "size": 1,
+        "content": "How'd we get here? (AKA Matt's version)"
       },
       "parText": "Cecily and Matt met online and had their first date at Liquor Lyle's in Uptown Minneapolis in January 2015. They've traveled to Denmark, Eastern Europe, and Spain, but enjoy the comfort of their home in Northeast Minneapolis where they can spend time with their dog June. They're excited to see you all, and can't wait to spend the rest of their lives together."
     }

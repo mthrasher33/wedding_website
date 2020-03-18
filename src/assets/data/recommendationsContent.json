@@ -6,7 +6,7 @@
         "size": 1,
         "content": "Eat"
       },
-      "parText": "<p class='business'>El Taco Riendo<span class='address'>2412 Central Ave NE, Minneapolis, MN 55418</span></p><p>Holy Land<span class='address'>2513 Central Ave NE, Minneapolis, MN 55418</span></p></span><p>Hai Hai<span class='address'>2121 University Ave NE, Minneapolis, MN 55418</span></p><p>Young Joni<span class='address'>165 13th Ave NE, Minneapolis, MN 55413</span></p>"
+      "parText": "<p class='business'>El Taco Riendo<span class='address'>2412 Central Ave NE, Minneapolis, MN 55418</span></p><p>Holy Land<span class='address'>2513 Central Ave NE, Minneapolis, MN 55418</span></p></span><p>Hai Hai<span class='address'>2121 University Ave NE, Minneapolis, MN 55418</span></p><p>Young Joni<span class='address'>165 13th Ave NE, Minneapolis, MN 55413</span></p><p>World Street Kitchen<span class='address'>2743 Lyndale Ave. S Minneapolis, MN 55408</span></p>"
     }
   },
   {
@@ -16,7 +16,7 @@
         "size": 1,
         "content": "Drink"
       },
-      "parText": "<p class='business'>Moose on Monroe<span class='address'>356 Monroe St NE, Minneapolis, MN 55413</span></p><p>Dangerous Man Brewing Company<span class='address'>1300 NE 2nd St, Minneapolis, MN 55413</span></p></span><p>Norseman Distillery<span class='address'>451 Taft St NE, Minneapolis, MN 55413</span></p><p>Grumpy's Northeast<span class='address'>2200 4th St NE, Minneapolis, MN 55418</span></p>"
+      "parText": "<p class='business'>Moose on Monroe<span class='address'>356 Monroe St NE, Minneapolis, MN 55413</span></p><p>Dangerous Man Brewing Company<span class='address'>1300 NE 2nd St, Minneapolis, MN 55413</span></p></span><p>Norseman Distillery<span class='address'>451 Taft St NE, Minneapolis, MN 55413</span></p><p>Grumpy's Northeast<span class='address'>2200 4th St NE, Minneapolis, MN 55418</span></p><p>Aster Cafe<span class='address'>125 SE Main St. Minneapolis, MN 55414</span></p>"
     }
   },
   {
@@ -26,7 +26,7 @@
         "size": 1,
         "content": "Sightsee"
       },
-      "parText": "<p class='business'>Stone Arch Bridge and Mill City District<span class='address'>100 Portland Ave, Minneapolis, MN 55401</span></p>Minnehaha Falls<span class='address'>4801 S Minnehaha Dr, Minneapolis, MN 55417</span></p></span>"
+      "parText": "<p class='business'>Stone Arch Bridge and Mill City District<span class='address'>100 Portland Ave, Minneapolis, MN 55401</span></p>Minnehaha Falls<span class='address'>4801 S Minnehaha Dr, Minneapolis, MN 55417</span></p></span><p>The Museum of Russian Art<span class='address'>5500 Stevens Ave. Minneapolis, MN 55419</span></p><p>Minneapolis Chain of Lakes<span class='address'>Lake of the Isles, Bde Maka Ska, Cedar Lake</span></p><p>The Minneapolis Greenway<span class='address'>Nearly six-mile trail that runs through the center of Minneapolis</span></p><p>Midtown Global Market<span class='address'>920 E Lake St. Minneapolis, MN 55407</span></p>"
     }
   }
 ]

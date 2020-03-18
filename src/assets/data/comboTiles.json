@@ -13,7 +13,7 @@
       "sub": "",
       "url": "/events",
       "icon": "event_note",
-      "active": true
+      "active": false
     },
     {
       "id": "P0003",

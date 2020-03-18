@@ -4,19 +4,9 @@
     "content": {
       "header": {
         "size": 1,
-        "content": "Hotel"
+        "content": ""
       },
-      "parText": "<p>Mariott Delta<span class='address'>1330 Industrial Blvd NE, Minneapolis, MN 55413</span></p><p>Nicollet Island Inn<span class='address'>95 Merriam St, Minneapolis, MN 55401</span></p>"
-    }
-  },
-  {
-    "type": "textField",
-    "content": {
-      "header": {
-        "size": 1,
-        "content": "Transportation"
-      },
-      "parText": "<p>The venue is served by Metro Transit routes 4 and 11.</p><p>There is limited parking at the venue, so please park on the street if you are able</p>"
+      "parText": "All events will be in Minneapolis and are accessible through buses or ride-sharing services. As former hosts ourselves, we recommend Air BNB or VRBO. If you prefer a hotel, there are many nearby. Suggestions include: <p>TownePlace Suites <span class='address'>525 N 2nd St. Minneapolis, MN 55401</span></p><p>Aloft Minneapolis<span class='address'>900 S Washington Ave. Minneapolis, MN 55415</span></p><p>Canopy Hilton Minneapolis<span class='address'>708 S 3rd St. Minneapolis, MN 55415</span></p><p>If you are feeling fancy:</p><p>Hewing Hotel<span class='address'>300 N Washington Ave. Minneapolis, MN 55401</span></p><p>Hotel Ivy<span class='address'>201 S 11th St. Minneapolis, MN 55403</span></p><p>Alma Hotel<span class='address'>528 University Ave SE Minneapolis, MN 55414</span></p>"
     }
   }
 ]

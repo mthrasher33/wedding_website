@@ -4,48 +4,55 @@
       "header": "Accommodations",
       "sub": "Where to stay in the Twin Cities",
       "url": "/accommodations",
-      "icon": "local_hotel"
+      "icon": "local_hotel",
+      "active": true
     },
     {
       "id": "P0002",
       "header": "Schedule of Events",
       "sub": "",
       "url": "/events",
-      "icon": "event_note"
+      "icon": "event_note",
+      "active": true
     },
     {
       "id": "P0003",
       "header": "Registry",
       "sub": "",
       "url": "/registry",
-      "icon": "card_giftcard"
+      "icon": "card_giftcard",
+      "active": false
     },
     {
       "id": "P0004",
       "header": "Our Story",
       "sub": "",
       "url": "/story",
-      "icon": "library_books"
+      "icon": "library_books",
+      "active": true
     },
     {
       "id": "P0005",
       "header": "Wedding Party",
       "sub": "",
       "url": "/wedding-party",
-      "icon": "cake"
-    },
+      "icon": "cake",
+      "active":false
+    }, 
     {
       "id": "P0005",
       "header": "See the Cities",
       "sub": "",
       "url": "/recommendations",
-      "icon": "location_city"
+      "icon": "location_city",
+      "active": true
     },
     {
       "id": "P0005",
       "header": "The Venue",
       "sub": "",
       "url": "/venue",
-      "icon": "star"
+      "icon": "star",
+      "active": true
     }
 ]

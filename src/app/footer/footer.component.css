@@ -6,7 +6,6 @@ footer {
     color: rgb(25, 25, 25, .9);
     font-weight: bold;
     font-family: 'Amatic SC';
-    /*flex-wrap: "wrap";*/
     flex-direction: column;
   }
 
@@ -24,6 +23,10 @@ footer {
   footer ul {
     list-style: none;
     width: 200px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   footer ul li {

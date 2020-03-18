@@ -14,7 +14,6 @@ export class ComboTilesComponent implements OnInit {
   ngOnInit(): void {
     this.comboTiles = [];
     this.getComboTiles();
-
   }
 
   getComboTiles() {
@@ -25,7 +24,8 @@ export class ComboTilesComponent implements OnInit {
             header: d.header,
             //sub: d.sub,
             url: d.url,
-            icon: d.icon
+            icon: d.icon,
+            isActive: d.active
           });
         }
       });

@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
 div.text_field {
     text-align: left;
-    font-family: "Lato";
+    font-family: "Noto Serif";
     font-size: 20px;
     width: 90%;
     margin: 25px 5%;
     color: black;
+    background-color: rgb(230, 213, 237);
+    padding: 10px;
+    line-height: 1.7em;
 }
 
 div.text_field div.text {
@@ -16,8 +19,8 @@ div.text_field div.text {
 
 @media screen and (min-width: 575px) {
     div.text_field {
-        width: 50%;
-        margin: 25px 25%;
+        width: 80%;
+        margin: 25px 10%;
     }
     
   }

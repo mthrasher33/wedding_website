@@ -8,6 +8,27 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Nunito'
+  }
+
+  .hero-image.Accommodations {
+    background-position: 5% 80%;
+  }
+
+  .hero-image.Story {
+    background-position: 50% 50%;
+  }
+
+  .hero-image.Venue {
+    background-position: 50% 25%;
+  }
+
+  .hero-image.Places {
+    background-position: 50% 80%;
+  }
+
+  .hero-image.Accommodations h1 {
+    font-size: 1.5em;
   }
 
 .hero-image .content_block {
@@ -19,11 +40,6 @@
   color: white;
   font-size: 25px;
 }
-
-.hero-image .content_block h1, h2, h3 {
-  /*background-color: rgb(232, 230, 230, 0.5);*/
-}
-
 
 .hero-image .breadcrumb {
   background-color:rgb(204, 202, 204);
@@ -61,15 +77,36 @@ font-size: 20px;
   .hero-image {
     height: 500px;
   }
-  /* Responsive Styles */
+  .hero-image.Venue {
+    background-position: 50% 20%;
+  }
+  .hero-image.Accommodations h1 {
+    font-size: 2em;
+  }
+}
   @media screen and (min-width: 900px) {
     .hero-image {
-      background-position: 50% 5%;
+      background-position: 5% 20%;
       height: 600px;
-      font-family: 'Nunito'
     }
+
+    .hero-image.Story {
+      background-position: 5% 50%;
+    }
+
+    
+  .hero-image.Places {
+    background-position: 50% 70%;
+  }
+
     .hero-image .content_block {
       padding-top: 325px;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    .hero-image.Accommodations {
+      background-position: 5% 70%;
+    }
+
   }

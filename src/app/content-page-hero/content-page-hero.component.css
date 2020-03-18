@@ -23,6 +23,40 @@
 .hero-image .content_block h1, h2, h3 {
   /*background-color: rgb(232, 230, 230, 0.5);*/
 }
+
+
+.hero-image .breadcrumb {
+  background-color:rgb(204, 202, 204);
+  padding: 10px 12px;  
+  font-family: 'Amatic SC';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-image .breadcrumb a {
+cursor: pointer;
+padding: 6px 10px;
+}
+
+.hero-image .breadcrumb a:hover {
+background-color: rgb(99, 64, 74);
+color: white;
+}
+
+.hero-image .breadcrumb span {
+vertical-align: middle;
+margin-right: 5px;
+}
+
+.hero-image .mat-icon {
+height: 20px;
+width: 20px;
+padding-top: 3px;
+}
+
+.hero-image .material-icons {
+font-size: 20px;
+}
 @media screen and (min-width: 574px) {
   .hero-image {
     height: 500px;
@@ -37,38 +71,5 @@
     .hero-image .content_block {
       padding-top: 325px;
     }
-  }
-
-  .hero-image .breadcrumb {
-      background-color:rgb(204, 202, 204);
-      padding: 10px 12px;  
-      font-family: 'Amatic SC';
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-  .hero-image .breadcrumb a {
-    cursor: pointer;
-    padding: 6px 10px;
-  }
-
-  .hero-image .breadcrumb a:hover {
-    background-color: rgb(99, 64, 74);
-    color: white;
-  }
-
-  .hero-image .breadcrumb span {
-    vertical-align: middle;
-    margin-right: 5px;
-  }
-
-  .hero-image .mat-icon {
-    height: 20px;
-    width: 20px;
-    padding-top: 3px;
-  }
-
-  .hero-image .material-icons {
-    font-size: 20px;
   }
   }

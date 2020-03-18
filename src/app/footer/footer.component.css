@@ -23,9 +23,8 @@ footer {
   footer ul {
     list-style: none;
     width: 200px;
-    max-height: 200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
@@ -46,6 +45,11 @@ footer {
   @media screen and (min-width: 575px) {
     footer{
         flex-direction: row;
+    }
+    footer ul {
+      flex-direction: column;
+      max-height: 200px;
+
     }
     
   }

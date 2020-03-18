@@ -6,7 +6,7 @@
         "size": 1,
         "content": "Eat"
       },
-      "parText": "<p class='business'>El Taco Riendo<span class='address'>2412 Central Ave NE, Minneapolis, MN 55418</span></p><p>Holy Land<span class='address'>2513 Central Ave NE, Minneapolis, MN 55418</span></p></span><p>Hai Hai<span class='address'>2121 University Ave NE, Minneapolis, MN 55418</span></p><p>Young Joni<span class='address'>165 13th Ave NE, Minneapolis, MN 55413</span></p><p>World Street Kitchen<span class='address'>2743 Lyndale Ave. S Minneapolis, MN 55408</span></p>"
+      "parText": "<p class='business'>El Taco Riendo<span class=recText>Cecily's favorite. Get the Pastor off the spit.</span><span class='address'>2412 Central Ave NE, Minneapolis, MN 55418</span></p><p>Holy Land<span class=recText>If it's good enough for Guy Fieri, it's good enough for you.</span><span class='address'>2513 Central Ave NE, Minneapolis, MN 55418</span></p></span><p>Hai Hai<span class=recText>Fusion Thai street food with great cocktails and brunch.</span><span class='address'>2121 University Ave NE, Minneapolis, MN 55418</span></p><p>Young Joni<span class=recText>Trendiest restaurant in the neighborhood. Great pizza. Be sure to check out the speak easy in the back.</span><span class='address'>165 13th Ave NE, Minneapolis, MN 55413</span></p><p>World Street Kitchen<span class=recText>A must-go food stop for people who dare travel to Uptown.</span><span class='address'>2743 Lyndale Ave. S Minneapolis, MN 55408</span></p>"
     }
   },
   {
@@ -16,7 +16,7 @@
         "size": 1,
         "content": "Drink"
       },
-      "parText": "<p class='business'>Moose on Monroe<span class='address'>356 Monroe St NE, Minneapolis, MN 55413</span></p><p>Dangerous Man Brewing Company<span class='address'>1300 NE 2nd St, Minneapolis, MN 55413</span></p></span><p>Norseman Distillery<span class='address'>451 Taft St NE, Minneapolis, MN 55413</span></p><p>Grumpy's Northeast<span class='address'>2200 4th St NE, Minneapolis, MN 55418</span></p><p>Aster Cafe<span class='address'>125 SE Main St. Minneapolis, MN 55414</span></p>"
+      "parText": "<p class='business'>Moose on Monroe<span class=recText>The bar where it all began. Pull tabs, karaoke, cheap drinks, and Price is Right on weekdays.</span><span class='address'>356 Monroe St NE, Minneapolis, MN 55413</span></p><p>Dangerous Man Brewing Company<span class=recText>Local craft brewery with good beer and plenty of suburbanites. Try the peanut butter porter!</span><span class='address'>1300 NE 2nd St, Minneapolis, MN 55413</span></p></span><p>Norseman Distillery<span class=recText>Our favorite craft cocktail bar. Great tacos from the foodtruck out back.</span><span class='address'>451 Taft St NE, Minneapolis, MN 55413</span></p><p>Grumpy's Northeast<span class=recText>Local dive bar with a great juke box.</span><span class='address'>2200 4th St NE, Minneapolis, MN 55418</span></p><p>Aster Cafe<span class=recText>Great place for a cocktail out by the river.</span><span class='address'>125 SE Main St. Minneapolis, MN 55414</span></p>"
     }
   },
   {
@@ -26,7 +26,7 @@
         "size": 1,
         "content": "Sightsee"
       },
-      "parText": "<p class='business'>Stone Arch Bridge and Mill City District<span class='address'>100 Portland Ave, Minneapolis, MN 55401</span></p>Minnehaha Falls<span class='address'>4801 S Minnehaha Dr, Minneapolis, MN 55417</span></p></span><p>The Museum of Russian Art<span class='address'>5500 Stevens Ave. Minneapolis, MN 55419</span></p><p>Minneapolis Chain of Lakes<span class='address'>Lake of the Isles, Bde Maka Ska, Cedar Lake</span></p><p>The Minneapolis Greenway<span class='address'>Nearly six-mile trail that runs through the center of Minneapolis</span></p><p>Midtown Global Market<span class='address'>920 E Lake St. Minneapolis, MN 55407</span></p>"
+      "parText": "<p class='business'>Stone Arch Bridge and Mill City District <span class=recText>Top Instagram spot in the cities. Bring your own selfie stick.</span><span class='address'>100 Portland Ave, Minneapolis, MN 55401</span></p>Minnehaha Falls<span class=recText>Beautiful park and waterfall. Check out some live music at Sea Salt nearby.</span><span class='address'>4801 S Minnehaha Dr, Minneapolis, MN 55417</span></p><p>The Museum of Russian Art<span class=recText>A private collection of 20th century Soviet art in a former mission-style church.</span><span class='address'>5500 Stevens Ave. Minneapolis, MN 55419</span></p><p>Minneapolis Chain of Lakes<span class=recText>Rent a bike or canoe and do the lakes thing.</span><span class='address'>Lake of the Isles, Bde Maka Ska, Cedar Lake</span></p><p>The Minneapolis Greenway<span class='recText'>Nearly six-mile trail that runs through the center of Minneapolis</span></p><p>Midtown Global Market<span class=recText>Fun collection of diverse food options in the historic Sears building off Lake Street. Great stop if you're doing the Greenway.</span><span class='address'>920 E Lake St. Minneapolis, MN 55407</span></p>"
     }
   }
 ]

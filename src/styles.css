@@ -24,8 +24,15 @@ div.content_page_body div.text h1{
 
 span.address {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(209, 154, 44)
+}
+
+span.recText {
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(79, 77, 79);
 }
 
 span.registryLink a {

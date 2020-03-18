@@ -25,7 +25,7 @@ div.content_page_body div.text h1{
 span.address {
     display: block;
     font-size: 20px;
-    color: rgb(214, 130, 41);
+    color: rgb(209, 154, 44)
 }
 
 span.registryLink a {
@@ -41,4 +41,9 @@ span.registryLink a:hover {
 
 div.text img {
     width: 100%;
+}
+
+div.text_field h1 {
+    text-align: center;
+    font-size: 35px;
 }

@@ -11,7 +11,7 @@ div.comboTile {
     margin: 15px;
     padding: 15px;
     color: rgb(59, 39, 54);
-    background-color: cornsilk;
+    background-color: rgb(251, 250, 252);
     text-align:center;
     height: 180px;
     width: 180px;
@@ -22,7 +22,7 @@ div.comboTile {
 
 div.comboTile:hover {
     background:rgb(59, 39, 54);
-    color: cornsilk;
+    color: rgb(251, 250, 252);
     border-radius: 50%;
 }
 

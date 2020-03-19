@@ -31,6 +31,14 @@
     font-size: 1.5em;
   }
 
+  .hero-image.Events {
+    background-position: 50% 15%;
+  }
+
+  .hero-image.Registry {
+    background-position: 50% 15%;
+  }
+
 .hero-image .content_block {
   text-align: center;
   width: 60%;

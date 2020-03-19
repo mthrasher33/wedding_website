@@ -55,3 +55,7 @@ div.text_field h1 {
     text-align: center;
     font-size: 25px;
 }
+
+p.centered {
+    text-align: center;
+}

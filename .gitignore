@@ -48,3 +48,6 @@ Thumbs.db
 # node server code 
 server/node_modules 
 server/dist 
+
+weddingPartyContent_live.json
+wedding_party/

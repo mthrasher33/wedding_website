@@ -47,10 +47,6 @@ span.registryLink a:hover {
     color: white;
 }
 
-div.text img {
-    width: 100%;
-}
-
 div.text_field h1 {
     text-align: center;
     font-size: 25px;
@@ -58,4 +54,14 @@ div.text_field h1 {
 
 p.centered {
     text-align: center;
+}
+
+div.text img.weddingParty {
+    width: 50%;
+    margin-left: 25%;
+}
+
+img.flip {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    transform: rotate(180deg);
 }

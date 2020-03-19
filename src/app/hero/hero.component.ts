@@ -8,7 +8,6 @@ import { ApiService } from './../api.service';
 })
 
 export class HeroComponent implements OnInit, OnChanges {
-  smartphones: any = [];
   imagePath: String = "";
   @Input('master') masterBackgroundImage: string;
 
@@ -16,26 +15,12 @@ export class HeroComponent implements OnInit, OnChanges {
   constructor(private api: ApiService) {}
 
   ngOnInit(): void {
-    this.smartphones = [];
-    this.getSmartphones();
   }
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes['masterBackgroundImage'] && this.masterBackgroundImage) {
       this.getImagePath(this.masterBackgroundImage);
     }
-``}
-
-  getSmartphones() {
-    this.api.getSmartphone()
-      .subscribe(data => {
-        for (const d of (data as any)) {
-          this.smartphones.push({
-            name: d.name,
-            price: d.price
-          });
-        }
-      });
   }
 
   getImagePath(fileName: String) {

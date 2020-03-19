@@ -4,27 +4,27 @@
     </div>
       <div class="spacer"></div>
       <div class="menuToggler" (click)="toggleMenu()">
-        <mat-icon *ngIf="hideMobileMenu">menu</mat-icon>
+        <mat-icon class="openMobileMenu" *ngIf="hideMobileMenu">menu</mat-icon>
         <mat-icon *ngIf="!hideMobileMenu">menu_open</mat-icon>
       </div>
       <div class="mobileLinks" [ngClass]="{'hide': hideMobileMenu}">
         <ul class="dropdownMenu">
-          <li>
+          <li class="mobileLink">
               <!--<a routerLink="/events"><b>EVENT</b></a>-->
           </li>
           <!--<li>
               <a routerLink="/registry"><b>REGISTRY</b></a>
             </li>-->
-          <li>
+          <li class="mobileLink">
             <a routerLink="/story"><b>OUR STORY</b></a>
           </li>
-          <li>
+          <li class="mobileLink">
             <a routerLink="/accommodations"><b>ACOMMODATIONS</b></a>
           </li>
-          <li>
+          <li class="mobileLink">
             <a routerLink="/recommendations"><b>SEE THE CITIES</b></a>
           </li>
-          <li>
+          <li class="mobileLink">
             <a routerLink="/venue"><b>THE VENUE</b></a>
           </li>
         </ul>

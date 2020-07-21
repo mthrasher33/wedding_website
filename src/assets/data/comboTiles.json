@@ -21,7 +21,7 @@
       "sub": "",
       "url": "/registry",
       "icon": "card_giftcard",
-      "active": false
+      "active": true
     },
     {
       "id": "P0004",

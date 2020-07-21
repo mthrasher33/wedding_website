@@ -20,5 +20,9 @@ export class ContentPageComponent implements OnInit {
   contentKey: String = "";
   pageTitle: String = "";
   ngOnInit(): void {
+    console.log('pageTitle', this.pageTitle);
+    if(this.pageTitle.toLowerCase() === 'registry'){
+      window.location.href = 'https://www.zola.com/registry/cecilyandmatthew2020'
+    }
   }
 }

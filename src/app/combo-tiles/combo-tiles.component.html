@@ -2,7 +2,14 @@
     <div class="Aligner-item Aligner-item--top"></div>
     <div *ngFor="let comboTile of comboTiles">
         <div *ngIf="comboTile.isActive">
-            <a class="Aligner-item" routerLink={{comboTile.url}}>
+            <a *ngIf="comboTile.header.toLowerCase() === 'registry'" class="Aligner-item" href={{comboTile.url}} target="_blank">
+                <div class="comboTile">
+                    <h1>{{ comboTile.header }}</h1>
+                    <mat-icon *ngIf="comboTile.icon">{{ comboTile.icon }}</mat-icon>
+                </div>
+                <div class="Aligner-item Aligner-item--bottom"></div>
+            </a>
+            <a *ngIf="comboTile.header.toLowerCase() !== 'registry'" class="Aligner-item" routerLink={{comboTile.url}}>
                 <div class="comboTile">
                     <h1>{{ comboTile.header }}</h1>
                     <mat-icon *ngIf="comboTile.icon">{{ comboTile.icon }}</mat-icon>

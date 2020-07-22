@@ -62,10 +62,16 @@ div.comboTile .material-icons {
 div.alert {
   font-weight: bold;
   margin-bottom: 20px;
-  padding: 10px 100px 10px 100px;
+  padding: 15px;
   background-color: rgb(158, 136, 168);
   border-radius: 10px;
-  width: 60%;
+  width: 80%;
   font-family: "Noto Serif";
   line-height: 30px;
+}
+
+@media screen and (min-width: 900px) {
+ div.alert{
+  padding: 15px 100px 15px 100px;
+ } 
 }

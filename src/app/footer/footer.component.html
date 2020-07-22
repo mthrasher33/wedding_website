@@ -3,11 +3,12 @@
   <ul class="footerLinks">
     <li><a routerLink="/home">Home</a></li>
     <span *ngFor="let footerLink of footerLinks">
-      <li *ngIf="footerLink.isActive">
-        <a *ngIf="footerLink.header.toLowerCase() !== 'registry'" routerLink="{{footerLink.url}}">{{ footerLink.header }}</a>
-        <a *ngIf="footerLink.header.toLowerCase() === 'registry'" href="{{footerLink.url}}" target="_blank">{{ footerLink.header }}</a>
-
-      </li>      
+      <li *ngIf="footerLink.isActive && footerLink.header.toLowerCase() !== 'registry'">
+        <a routerLink="{{footerLink.url}}">{{ footerLink.header }}</a>
+      </li>
+      <li *ngIf="footerLink.isActive && footerLink.header.toLowerCase() === 'registry'">
+        <a href="{{footerLink.url}}" target="_blank">{{ footerLink.header }}</a>
+      </li>
     </span>
   </ul>
   

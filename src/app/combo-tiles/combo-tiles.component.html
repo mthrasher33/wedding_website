@@ -1,6 +1,10 @@
 <div class="comboTile_container">
     <div class="Aligner-item Aligner-item--top"></div>
-    <div *ngFor="let comboTile of comboTiles">
+    <div class = "alert">
+        <p>Due to COVID-19 restrictions, Matt and Cecily have elected to get married at a small ceremony on October 17, 2020.</p>
+        <p>They will love to see you all next year at the PNA Hall on August 14, 2021 to join them in a celebration of their marriage.</p>
+    </div>
+      <div *ngFor="let comboTile of comboTiles">
         <div *ngIf="comboTile.isActive">
             <a *ngIf="comboTile.header.toLowerCase() === 'registry'" class="Aligner-item" href={{comboTile.url}} target="_blank">
                 <div class="comboTile">
